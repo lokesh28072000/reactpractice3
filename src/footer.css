@@ -1,0 +1,43 @@
+
+
+  /* ------------------------------------------css2-------------------------- */
+
+
+  /* Example CSS */
+  .footer-section{
+    background-color: #0165df;
+    color: white;
+    padding: 20px 0;
+    
+  }
+  
+  .footer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* Your styles here */
+  }
+  
+  .footer1, .footer2, .footer3 {
+     flex: 1 1 25%;
+    margin-top: 60px;
+    /* Your styles here */
+    
+  }
+  
+ 
+  
+  /* Media queries for responsiveness */
+  @media (max-width: 768px) {
+    .footer1, .footer2 {
+      flex: 1 1 100%;
+    }
+  }
+  
+
+  @media (max-width: 478px) {
+    .footer1 , .footer2, .footer3  {
+     margin-left: 30%;
+    }
+   
+  }

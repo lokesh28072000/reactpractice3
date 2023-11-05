@@ -1,0 +1,133 @@
+
+*{
+  font-family: Arial, sans-serif;
+}
+
+.custom-dropdown .nav-link {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.nav-link {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+.navbackground{
+  background-color: #0165df;
+  
+}
+
+
+  /* -----------------container1home------------------- */
+
+  .sectionbg {
+   justify-content: center;
+   align-items: center;
+   background-image: url(./container1homeimage1.jpg);
+   font-family: Arial, sans-serif;
+   height: auto;
+   color: whitesmoke;
+   text-align: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+  }
+
+  .container1homecol1 h4{
+  margin-top: 100px;
+  }
+  
+
+  .container1homecol2 img , .container1homecard{
+    width: 600px;height: auto;
+    margin-top: 100px;
+    border-radius: 10px;
+  }
+
+  .container1homecard {
+    width: 500px;
+    height: auto;
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0, 0);
+    box-sizing: border-box;
+    border-color: black;
+  }
+  .subcontainer1{
+    margin-top: 60px;
+  }
+
+  @media(max-width:770px){
+    .container1homecol2  img{
+      width: 550px;
+      height: auto;
+      
+    }
+  }
+
+  
+  @media(max-width:670px){
+    .container1homecol2  img{
+      width: 450px;
+      height: auto;
+      
+    }
+  }
+  @media(max-width:570px){
+    .container1homecol2  img{
+      width: 390px;
+      height: auto;
+      
+    }
+  }
+  @media(max-width:440px){
+    .container1homecol2  img{
+      width: 290px;
+      height: auto;
+      
+    }
+  }
+ @media(max-width:574px){
+  .container1home{
+    display: flex;
+    flex-direction: column;
+  }
+ }
+
+
+/* ------------------------section2------------------- */
+
+.section2{
+  margin-top: 100px;
+  background-image: url(./section2bg.jpg);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  height: auto;
+}
+
+.section2container1row2card {
+  margin-top: 50px;
+  border-color: #0165df;
+ 
+}
+.animated-card {
+  border-color: #0165df;
+  border: none;
+  transition: transform 0.3s ease;
+}
+
+.animated-card:hover {
+  transform: scale(1.05);
+}
+
+
+
+
+.section2 h6{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: white; 
+}
+
+.section3{
+margin-top: 50px;
+}
+
